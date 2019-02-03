@@ -1,0 +1,6 @@
+@echo off
+SET a=2
+SET /p b=[Enter number]
+SET /a c=%a%*%b%
+echo %c%
+pause

@@ -1,0 +1,35 @@
+@echo off
+set /p number=[Number 1-5]
+	if %number%==1 (goto c1)
+	if %number%==2 (goto c2)
+	if %number%==3 (goto c3)
+	if %number%==4 (goto c4)
+	if %number%==5 (goto c5)
+echo Enter right number
+pause
+exit
+
+:c1
+echo one
+pause
+exit
+
+:c2
+echo two
+pause
+exit
+
+:c3
+echo three
+pause
+exit
+
+:c4
+echo four
+pause
+exit
+
+:c5
+echo five
+pause
+exit

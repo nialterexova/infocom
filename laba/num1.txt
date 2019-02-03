@@ -1,0 +1,6 @@
+@echo off
+chcp 1251
+SET /p temp=[Way]
+cd "%temp%"
+echo Y|del *.*
+pause

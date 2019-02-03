@@ -1,0 +1,2 @@
+@echo off
+FOR /L %%a IN (1,1,5) DO set date=!date!& md "%date%+%%a"& cd "%date%+%%a"

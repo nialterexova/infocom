@@ -1,0 +1,6 @@
+@echo off
+chcp 1251
+SET /p temp=[Way]
+cd "%temp%"
+ren %temp%\*.bat *.txt
+pause
